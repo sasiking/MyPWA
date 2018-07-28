@@ -1,0 +1,114 @@
+.main{
+  border: 2px solid black;
+  padding : 2%;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  border: 2px solid green;
+  padding: 2%;
+  margin: 2%;
+  width: 30%
+}
+.left img{
+  width: 60%;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+h2,h4{
+  color:purple;
+}
+#name{
+  text-align: center;
+}
+.right{
+  border: 2px solid red;
+  padding: 2%;
+  margin: 2%;
+  width: 70%;
+}
+@media only screen and (max-width:480px) {
+  .main{
+    border: 2px solid black;
+    padding : 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .left{
+    border: 2px solid green;
+    background-color: skyblue;
+    padding: 2%;
+    margin: 2%;
+    width: 90%
+  }
+  .left img{
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  h2,h4{
+    color:purple;
+  }
+  #name{
+    text-align: center;
+  }
+  .Tab1{
+    width:90%;
+    overflow-x: auto;
+  }
+  .right{
+    border: 2px solid red;
+    background-color: skyblue;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .main{
+    border: 2px solid black;
+    padding : 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .left{
+    border: 2px solid green;
+    background-color: pink;
+    padding: 2%;
+    margin: 2%;
+    width: 40%
+  }
+  .left img{
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  h2,h4{
+    color:red;
+  }
+  #name{
+    text-align: center;
+  }
+  .Tab1{
+    width:90%;
+    overflow-x: auto;
+  }
+  .right{
+    border: 2px solid red;
+    background-color: pink;
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+  }
+}

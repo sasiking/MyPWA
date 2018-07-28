@@ -1,0 +1,58 @@
+{
+  "dets":{
+   "image":"irm.jpg",
+   "name":"Sasi King",
+   "phno":"+919876543210",
+   "mail":"Contact Me:",
+   "Address":"Address is None of your Bussiness"
+ },
+  "Career":{
+    "text":"I want to get a job in Google, headQuaters"
+  },
+  "Education":[
+  {
+    "qualification":"B.Tech",
+    "institute":"Mic College",
+    "year":"2016-2020",
+    "percentage":"89%"
+    },
+    {
+      "qualification":"Intermediate",
+      "institute":"Narayana Junior College",
+      "year":"2016",
+      "percentage":"89.2%"
+      },
+      {
+        "qualification":"SSC",
+        "institute":"L.P.C.T. Gujarathi Vidhyala",
+        "year":"2014",
+        "percentage":"86%"
+    }
+  ],
+  "skills":[{
+    "title":"Programming Langs",
+    "info":["C,C++,Java,Ruby,Python,JavaScript"]
+  },
+  {
+    "title":"Data-Bases",
+    "info":["SQL,MySQL,Oracle"]
+  },
+  {
+    "title":"Operating-Systems",
+    "info":["Windows,Kali Linux,Mac"]
+    }
+  ],
+  "aci":[{
+   "in":"Machine Learning Certificate form Google"
+ },
+ {
+   "in":"1st prise in Kaggle Competition"
+ },
+ {
+   "in":" Currently Holding 8th Position in CodinGame"
+ },
+ {
+   "in":"Runner Up in Chess Junior Level interstate competitions"
+ }
+]
+}

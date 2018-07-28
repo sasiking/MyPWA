@@ -1,0 +1,129 @@
+.Eesalacup{
+  border: 3px solid black;
+  padding: 2%;
+  margin: 2%;
+  width: 100;
+  display: flex;
+  flex-direction: row;
+}
+.Namde1{
+  width: 30%;
+  border: 2px solid red;
+  padding: 2%;
+  margin: 2%;
+}
+.Namde1 img{
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 5px 8px 9px black;
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+a{
+  font-size: 25px;
+  color:black;
+}
+h4{
+  font-size: 30px;
+}
+h1,h3{
+  text-align: center;
+  color: ;
+}
+h2 {
+  font-size: 30px;
+}
+p{
+  font-size: 25px;
+}
+table{
+    width:90%;
+    overflow-x: auto;
+}
+.Namde2{
+  width: 85%;
+  border: 3px solid red;
+  padding: 2%;
+  margin: 2%;
+}
+@media only screen and (max-width:480px) {
+  .Eesalacup{
+    border: 2px solid black;
+    padding : 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Namde1{
+    border: 2px solid green;
+    background-color: skyblue;
+    padding: 2%;
+    margin: 2%;
+    width: 90%
+  }
+  .Namde1 img{
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  table{
+      width:90%;
+      overflow-x: auto;
+  }
+  h2,h4{
+    color:purple;
+  }
+  .Namde2{
+    border: 2px solid red;
+    background-color: skyblue;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:780px) {
+  .Eesalacup{
+    border: 2px solid black;
+    padding : 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .Namde1{
+    border: 2px solid red;
+    background-color: pink;
+    padding: 2%;
+    margin: 2%;
+    width: 40%
+  }
+  .Namde1 img{
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  table{
+      width:90%;
+      overflow-x: auto;
+  }
+  h2,h4{
+    color:red;
+  }
+
+  .Namde2{
+    border: 2px solid red;
+    background-color: pink;
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+  }
+}
